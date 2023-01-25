@@ -7,7 +7,7 @@ import Button from "./Button";
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="w-full h-full bg-[#eee]">
+    <div className="w-full h-full bg-[#eee] py-3">
       <div className="w-[90%] mx-auto h-16  flex items-center justify-between p-2">
         <div className="">
           <img src={brand} alt="brand" className="w-12 h-12" />
@@ -22,7 +22,7 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flez"
-            } dark:bg-black-gradient dark:text-primary bg-white z-30 p-4 absolute top-16 right-0 my-2 w-full min-h-[50vh]  sidebar`}
+            } dark:bg-black-gradient dark:text-primary bg-white z-30 p-4 absolute top-24 right-0 my-2 w-full min-h-[50vh]  sidebar transition-all ease-in-out duration-700`}
           >
             <ul className="flex flex-col pl-8">
               {navLinks.map((item) => (

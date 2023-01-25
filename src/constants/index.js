@@ -100,7 +100,7 @@ export const stats = [
   },
   {
     id: "stats-4",
-    title: "Country",
+    title: "States",
     value: "24",
   },
 ];
