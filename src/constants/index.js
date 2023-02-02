@@ -8,6 +8,8 @@ import {
   menu,
 } from "../assets";
 
+
+
 export const navLinks = [
   {
     id: "home",
@@ -31,29 +33,7 @@ export const navLinks = [
   },
 ];
 
-// export const services = [
-//   {
-//     id: "feature-1",
-//     icon: star,
-//     title: "Rewards",
-//     content:
-//       "The best credit cards offer some tantalizing combinations of promotions and prizes",
-//   },
-//   {
-//     id: "feature-2",
-//     icon: shield,
-//     title: "100% Secured",
-//     content:
-//       "We take proactive steps make sure your information and transactions are secure.",
-//   },
-//   {
-//     id: "feature-3",
-//     icon: send,
-//     title: "Balance Transfer",
-//     content:
-//       "A balance transfer credit card can save you a lot of money in interest charges.",
-//   },
-// ];
+
 
 export const faq = [
   {
@@ -85,23 +65,23 @@ export const faq = [
 export const stats = [
   {
     id: "stats-1",
-    title: "Branch",
-    value: "120",
+    title: "Branches",
+    value: "25",
   },
   {
     id: "stats-2",
     title: "Clients",
-    value: "2M+",
+    value: "1M+",
   },
   {
     id: "stats-3",
     title: "Support",
-    value: "4,232",
+    value: "100",
   },
   {
     id: "stats-4",
     title: "States",
-    value: "24",
+    value: "3",
   },
 ];
 

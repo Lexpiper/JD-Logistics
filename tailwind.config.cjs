@@ -5,6 +5,12 @@ module.exports = {
   mode: "jit",
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-pattern":
+          "url('https://media.istockphoto.com/id/1262331996/photo/the-staff-prepares-the-delivery-box-on-the-motorcycle-for-delivery-to-customers.jpg?b=1&s=170667a&w=0&k=20&c=i-RuEI7tJvQdIxzK-aYSZORf6mZNTotjgBKmFYT5h7w=')",
+        "service-img":
+          "url('https://media.istockphoto.com/id/1307965024/photo/a-delivery-biker-looking-over-their-shoulder.jpg?b=1&s=170667a&w=0&k=20&c=vndCBGN8ukXdDYtbDl1ixXzkS-K5NxaZlGbyul9NJX8=')",
+      },
       colors: {
         primary: "#49c1d9",
         secondary: "#200123",
@@ -13,7 +19,7 @@ module.exports = {
         ora: "#f14137",
       },
       fontFamily: {
-        mont: ['Montserrat', 'sans-serif'],
+        mont: ["Montserrat", "sans-serif"],
       },
     },
     screens: {

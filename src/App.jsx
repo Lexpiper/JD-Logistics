@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <Hero />
       <Process />
+      <Services/>
     </div>
   );
 }
