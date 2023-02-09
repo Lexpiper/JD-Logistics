@@ -11,6 +11,7 @@ import {
   Navbar,
   Process,
   Services,
+  Courier
 } from "./components";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Hero />
       <Process />
       <Services/>
+      <Courier/>
     </div>
   );
 }

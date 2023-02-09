@@ -7,5 +7,16 @@ import Navbar from "./Navbar";
 import Process from "./Process";
 import Services from "./Services";
 import Button from "./Button";
-
-export { Faq, Features, Footer, Hero, Model, Navbar, Process, Services,Button };
+import Courier from "./Courier";
+export {
+  Faq,
+  Features,
+  Footer,
+  Hero,
+  Model,
+  Navbar,
+  Process,
+  Services,
+  Button,
+  Courier,
+};
