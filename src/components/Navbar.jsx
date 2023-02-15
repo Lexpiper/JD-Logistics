@@ -28,7 +28,7 @@ const Navbar = () => {
               {navLinks.map((item) => (
                 <li
                   key={item.id}
-                  className="text-xl dark:text-primary font-semibold font-mont mb-5 md:mb-0"
+                  className="text-xl dark:text-primary font-semibold font-mont mb-5 md:mb-0 hover:text-primary  transition-all ease-in-out delay-150"
                 >
                   {item.title}
                 </li>
@@ -39,13 +39,15 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center font-mont pl-6">
           {navLinks.map((nav) => (
             <li
-              className="text-secondary pl-4 cursor-pointer text-base font-semibold"
+              className="text-secondary pl-4 cursor-pointer text-base font-semibold hover:text-primary transition-all ease-in-out delay-150"
               key={nav.id}
             >
               {nav.title}
             </li>
           ))}
-        <Button text={"Tracking"}/>
+          <div className="pl-5">
+            <Button text={"Tracking"} hover={'hover:bg-white hover:text-primary hover:border-1'}/>
+          </div>
         </ul>
       </div>
     </div>
