@@ -9,10 +9,10 @@ const Services = () => {
         className={`${layout.spacing} flex flex-col w-full items-center justify-between bg-dimWhite dark:bg-black-gradient`}
       >
         <div>
-          <h1 className="text-center text-black dark:text-white text-3xl font-extrabold pb-10 md:pb-4">
+          <h1 className="text-center text-black dark:text-white text-2xl font-semibold pb-10 md:pb-4">
             Our Services
           </h1>
-          <p className="text-sm m-0 md:mx-20 text-center text-black dark:text-white">
+          <p className="text-base m-0 md:mx-20 text-center text-black dark:text-white">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit <br />.
             Iure alias nemo natus beatae molestias, voluptates dolorem deserunt
             aliquid at ihil.

@@ -45,6 +45,7 @@ const Navbar = () => {
               {nav.title}
             </li>
           ))}
+        <Button text={"Tracking"}/>
         </ul>
       </div>
     </div>

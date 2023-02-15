@@ -24,6 +24,8 @@ function App() {
       <Process />
       <Services/>
       <Courier/>
+      <Faq/>
+      <Footer/>
     </div>
   );
 }

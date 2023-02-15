@@ -8,8 +8,6 @@ import {
   menu,
 } from "../assets";
 
-
-
 export const navLinks = [
   {
     id: "home",
@@ -33,31 +31,40 @@ export const navLinks = [
   },
 ];
 
-
-
 export const faq = [
   {
     id: "faq-1",
-    content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+    ans: "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
     name: "Herman Jensen",
-    title: "Founder & Leader",
+    ques: "How do i make an order",
     img: people01,
   },
   {
     id: "faq-2",
-    content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+    ans: "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    ques: "How do i make an order",
     img: people02,
   },
   {
     id: "faq-3",
-    content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+    ans: "Delivery times vary depending on the destination and the shipping service you select. Our website provides estimated delivery times based on the service you choose and the destination. Please note that delivery times may be affected by factors such as weather conditions, customs clearance, and other unforeseen circumstances.",
     name: "Kenn Gallagher",
-    title: "Founder & Leader",
+    ques: "How do i make an order",
+    img: people03,
+  },
+  {
+    id: "faq-3",
+    ans: "We take the utmost care to ensure that your shipment arrives at its destination safely and securely. However, if your shipment is lost or damaged during transit, we offer insurance coverage to protect your shipment. You can learn more about our insurance policies on our website..",
+    name: "Kenn Gallagher",
+    ques: "How do i make an order",
+    img: people03,
+  },
+  {
+    id: "faq-3",
+    ans: "It is usually people in the money business, finance, and international trade that are really rich.",
+    name: "Kenn Gallagher",
+    ques: "How do i make an order",
     img: people03,
   },
 ];
