@@ -4,7 +4,12 @@ import { faq } from "../constants";
 
 const Faq = () => {
   return (
-    <div data-aos="fade-up" className={`${layout.section} h-full `}>
+    <div
+      data-aos="fade-up"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in-out"
+      className={`${layout.section} h-full `}
+    >
       <div
         className={`${layout.spacing} flex flex-col w-full items-center justify-between bg-dimWhite dark:bg-black-gradient`}
       >
@@ -17,9 +22,7 @@ const Faq = () => {
               <img src={q.img} alt="" className="w-10 h-10 rounded-full mr-2" />
               <div>
                 <h1 className="text-1xl font-semibold ">{q.ques}</h1>
-                <p className="text-base  font-normal italic" >
-                 {q.ans}
-                </p>
+                <p className="text-base  font-normal italic">{q.ans}</p>
               </div>
             </div>
           </div>
