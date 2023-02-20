@@ -3,7 +3,7 @@ import { stats } from '../constants'
 
 const Stats = () => {
   return (
-    <div className='flex items-center  w-full md:w-fit gap-8 mt-20'>
+    <div className='flex items-center  w-full md:w-fit gap-8 mt-20 animate_animated animate__rubberBand'>
         {
             stats.map((stat) => (
                 <div className='flex flex-col items-center '>

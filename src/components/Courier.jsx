@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const Courier = () => {
   return (
-    <div className="bg-primary h-full w-full pb-10">
+    <div data-aos="fade-up" className="bg-primary h-full w-full pb-10">
       <div
         className={`${layout.spacing} text-black pt-10 w-full flex items-center flex-col md:flex-row gap-5`}
       >

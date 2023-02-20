@@ -30,7 +30,7 @@ const Hero = () => {
             />
             <BsChevronDoubleLeft className=" animate-pulse ml-3 transition-all ease-in-out duration-700" />
           </div>
-          <div className="mt-8">
+          <div className="mt-8 animate__animated animate__bounceInLeft animate__delay-.5s">
             <Stats />
           </div>
         </div>

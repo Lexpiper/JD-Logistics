@@ -46,7 +46,12 @@ const Navbar = () => {
             </li>
           ))}
           <div className="pl-5">
-            <Button text={"Tracking"} hover={'hover:bg-white hover:text-primary hover:border-1'}/>
+            <Button
+              text={"Tracking"}
+              hover={
+                "hover:bg-white hover:text-primary hover:border-1 hover:pt-4 transition-all ease-in-out duration-100"
+              }
+            />
           </div>
         </ul>
       </div>

@@ -4,11 +4,11 @@ import { faq } from "../constants";
 
 const Faq = () => {
   return (
-    <div className={`${layout.section} h-full `}>
+    <div data-aos="fade-up" className={`${layout.section} h-full `}>
       <div
         className={`${layout.spacing} flex flex-col w-full items-center justify-between bg-dimWhite dark:bg-black-gradient`}
       >
-        <h1 className="text-2xl font-semibold p-8">
+        <h1 className="text-2xl font-semibold p-8 underline underline-offset-auto">
           Most Asked Questions About Our Company
         </h1>
         {faq.map((q) => (
@@ -16,8 +16,8 @@ const Faq = () => {
             <div className="flex gap-5 ">
               <img src={q.img} alt="" className="w-10 h-10 rounded-full mr-2" />
               <div>
-                <h1 className="text-1xl font-semibold pb-2">{q.ques}</h1>
-                <p className="text-base  font-normal">
+                <h1 className="text-1xl font-semibold ">{q.ques}</h1>
+                <p className="text-base  font-normal italic" >
                  {q.ans}
                 </p>
               </div>
